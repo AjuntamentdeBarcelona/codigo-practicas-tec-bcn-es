@@ -1,0 +1,48 @@
+= Objeto y alcance
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+== Objeto
+
+Este documento constituye el Código de Prácticas Tecnológicas que implementa de forma práctica la estrategia de transformación digital ágil del Ayuntamiento de Barcelona (la “Estrategia”), en conformidad con los Estándares de Servicios Digitales de la Ciudad enunciados en Setiembre del 2017.
+
+Este Código consiste principalmente en una relación de principios y requerimientos directos y claros, que *permiten entender de forma rápida* los distintos elementos de la transformación digital en marcha en la Ciudad de Barcelona.
+Tiene como objetivo permitir a los responsables de la gobernanza y de la gestión de proyectos de servicios digitales asegurar que éstos se alinean con la Estrategia del Ayuntamiento de Barcelona en éste ámbito.
+
+El Código está planteado como un documento práctico de referencia y no contiene justificaciones teóricas para las políticas propuestas ni referencias a ejemplos, salvo en contadas ocasiones.
+
+Las directrices concretas están basadas en prácticas ejemplares de varios países y contextos.
+El Reino Unido, EEUU, Suecia y Holanda ente muchos otros, han implementado políticas innovadoras a nivel estatal de tecnologías abiertas y desarrollos _agile_.
+
+== Alcance y aplicación
+
+Este Código de Prácticas Tecnológicas es de aplicación en la gestión y gobernanza de los proyectos de tecnología e innovación que se incluyan dentro del Plan de Transformación Digital Ágil, tanto por el Instituto Municipal de Informática (IMI) como por otras entidades y departamentos dependientes del Ayuntamiento de Barcelona.
+Asimismo concierne el diseño y construcción de todos los servicios digitales del Ayuntamiento, entendiendo como tales los servicios de gestión y entrega de la información mediante plataformas y dispositivos digitales.
+
+Se dirige a todos los líderes y responsables de las unidades del Grupo Municipal, los administradores de programas y el personal implicado en la implementación de esta Estrategia.
+Los responsables de cada Gerencia tienen el cometido último de asegurar que las directrices de la Estrategia y de este Código se implementen.
+
+//Falta por traducir al castellano
+//These principles and guidelines will be put into operation through performance of the City Council’s agile digital transformation projects, which are largely managed by the IMI.
+//*****These projects will enable resources to be dedicated, infrastructures to be created and skills to be acquired for carrying out these transformations.
+//So changes involved in the application of these practices within the City Council will be managed in an iterative way through specific projects.
+//Some of the projects and their extensions (e.g. Decidim. Barcelona, Sentilo, BIMA) already comply in good measure with the guidelines outlined here, while others will gradually do so in a more progressive manner.*****
+
+== Estructura
+
+Este documento se estructura en un conjunto de principios generales, apoyados por directrices que corresponden a los tres principales ejes de la Estrategia de transformación digital ágil del Ayuntamiento de Barcelona:
+
+* El desarrollo de servicios digitales ágiles
+
+* La soberanía tecnológica, apoyada en el uso de estándares abiertos y de software libre
+
+* La gestión ética y segura de datos y de datos abiertos
+
+Este documento es complementario y no sustituye a ninguna política de la organización ni regulación municipal o de otros ámbitos
+
+// Falta por traducir al castellano
+//This Technology Code of Practice is accompanied by two supporting documents to promote the Agile Digital Transformation Plan: The Agile Methodologies Guide and the Technological Sovereignty Guide.
+//In addition, the Plan is being implemented through the City Council’s Procurement Guides, particularly the Technology Procurement Guide and the Innovative Procurement Guide.
+//As for responsible and ethical data management, a key element of the Agile Digital Transformation Plan (particularly the Open Data strategy and the Data Commons, Data Driven projects and interoperability based on free data formats), the corresponding guidelines and their implementation will be developed in a new _Government Measure on the Strategy for Responsible and Ethical Data Management at Barcelona City Council_, which will specify the required technical details, processes and responsibilities.
