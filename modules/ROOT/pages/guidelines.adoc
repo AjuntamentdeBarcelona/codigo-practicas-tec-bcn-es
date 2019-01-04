@@ -1,4 +1,4 @@
-= Guidelines for designing and implementing digital services
+= Directrices para el diseño y el desarrollo de servicios digitales
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
