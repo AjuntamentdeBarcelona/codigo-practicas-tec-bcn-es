@@ -1,0 +1,300 @@
+= Guidelines for designing and implementing digital services
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+En el diseño y desarrollo de servicios digitales, se deberán seguir las siguientes directrices organizadas en tres áreas:
+
+. *Metodologías Agile*
+. *Soberanía tecnológica*
+. *Gestión responsable de datos y datos abiertos*
+
+Es responsabilidad tanto del IMI como de las Unidades del Ayuntamiento implementar estas directrices en los proyectos desarrollados por y para el Ayuntamiento de Barcelona.
+
+
+== Proyectos “Agile”
+
+Para cumplir con el objetivo de la implementación de la metodología Agile en los proyectos de las entidades del Ayuntamiento, los principios y las directrices son las siguientes:
+
+{counter:guidelines_agile}. Colaboración interdisciplinaria::
+
+Se configuran equipos multidisciplinarios *donde todo el mundo está implicado al 100 %* y que incluyen los diferentes roles y especialidades necesarias para el desarrollo de aplicaciones, servicios y procesos.
+Solo una o dos personas son directamente responsables, pero el éxito del equipo recae por igual en todos los miembros.
+
+{counter:guidelines_agile}. Equipos autoorganizados::
+
+Los equipos que se organizan de forma autónoma y flexible pueden crear nuevos enfoques y adaptarse por sí mismos a nuevos retos en su entorno.
+En consecuencia, los roles y las responsabilidades dentro de los equipos tendrán un cierto nivel de flexibilidad y fluidez en función de la experiencia, las habilidades y los conocimientos de los integrantes del equipo, así como de las necesidades de los proyectos.
+
+{counter:guidelines_agile}. Comunicación::
+
+Se debe establecer un plan de comunicación teniendo en mente la transparencia y las responsabilidades de los diferentes agentes implicados.
+Se debe identificar a los actores clave de los servicios y procesos municipales, así como a los actores que participan de la parte técnica.
+Todos ellos serán los destinatarios de las acciones comunicativas que deberán llevarse a cabo con una frecuencia adecuada a los objetivos y las necesidades de los proyectos.
+Las conversaciones cara a cara tendrán prioridad respecto a otros canales de comunicación
+
+{counter:guidelines_agile}. Transparencia::
+
+Se debe compartir de manera abierta y transparente con los actores clave el estatus del proyecto, las prioridades, los riesgos, los problemas, las tareas, los hitos, las historias de usuario, las contribuciones y los eventuales “elementos bloqueantes” con el fin de abordar los retos con rapidez.
+Y eso se puede hacer con comunicaciones directas pero también utilizando herramientas adaptadas a la metodología Agile.
+
+{counter:guidelines_agile}. Mejora continua::
+
+Se establecerán prácticas de trabajo colaborativo para facilitar una cultura de aprendizaje y de mejora continua, tanto del servicio prestado como de las capacidades de los integrantes del equipo.
+
+{counter:guidelines_agile}. _Feedback_ rápido::
+
+El equipo se esforzará por hacer iteraciones tan cortas como sea posible. Las prácticas de equipo se harán de tal manera que faciliten la obtención del _feedback_ de manera rápida y que este se incorpore al _backlog_ del proyecto.
+
+{counter:guidelines_agile}. Aceptación del cambio::
+
+Se entiende que los planes y los proyectos evolucionarán y cambiarán a lo largo de la prestación del servicio.
+Se establecerán prácticas de análisis y de planificación para reflejar este hecho.
+
+{counter:guidelines_agile}. Enfoque iterativo::
+
+Las actividades de análisis, diseño, planificación y desarrollo adoptarán un enfoque iterativo en ciclos cortos para permitir el _feedback_ precoz y cambiar las prioridades según las necesidades.
+
+{counter:guidelines_agile}. Despliegue rápido, despliegue frecuente::
+
+Se debe poner énfasis en dar valor a los usuarios finales tan rápidamente como sea posible, reducir el tiempo de puesta en producción de las aplicaciones y recibir _feedback_ de los usuarios lo más rápido posible.
+Se dará prioridad al producto mínimo viable identificado que responde a las necesidades prioritarias de los usuarios, y el resto de funcionalidades se irán desplegando en entregas posteriores.
+
+{counter:guidelines_agile}. Centrado en ofrecer valor al usuario::
+
+Se debe dar prioridad a las necesidades del usuario.
+Las necesidades del usuario van por delante de cualquier otra necesidad, incluso de las de los actores clave.
+Cuando haya un conflicto de necesidades entre los grupos, hay que asegurarse de que hay unas prioridades claras.
+Se promoverá la diversidad en los equipos para favorecer diseños inclusivos.
+
+{counter:guidelines_agile}. Calidad::
+
+La calidad no hace referencia solo a la calidad técnica, sino también a la calidad del servicio.
+La calidad está presente en cada paso del proceso y todas las personas del equipo tienen la responsabilidad de garantizar que el servicio es de un nivel alto.
+
+{counter:guidelines_agile}. Medida del progreso::
+
+La entrega de software ejecutable es la principal medida de progreso.
+También hay que aplicar otras medidas que reflejan el valor aportado al usuario y a los servicios municipales para garantizar que satisface las necesidades reales y da un valor real al ciudadano.
+
+== Soberanía tecnológica
+
+Para cumplir con el objetivo de soberanía tecnológica enunciada en la Estrategia de Transformación Digital Ágil i los Estándares de Servicios Digitales, expandiendo los principios que guían el IMI en materia de tecnología e innovación: interoperabilidad, agilidad, ética y apertura de conocimientos y tecnologías (tanto software como datos), las directrices son las siguientes.
+
+=== Interoperabilidad, formatos y estándares abiertos
+
+{counter:guidelines_sover}. Interoperabilidad::
+
+Los servicios digitales del Ayuntamiento de Barcelona seguirán el principio básico de la interoperabilidad, fundamentada en el uso de estándares y formatos abiertos.
+Las políticas de los departamentos y áreas administrativas del Ayuntamiento también estarán alineados con los principios de interoperabilidad y formatos abiertos indicados aquí.
+
+{counter:guidelines_sover}. Uso de estándares abiertos::
+
+Los servicios digitales del Ayuntamiento utilizarán de forma obligatoria estándares abiertos, y en especial aquellos contenidos en el catálogo de estándares de la Norma Técnica de Interoperabilidad o los estándares abiertos aceptados internacionalmente que actualicen, sustituyan o complementen estos estándares.
+Cuando no haya un estándar abierto aprobado para el formato requerido se presentará una propuesta del formato a utilizar, atendiendo a lo establecido en la normativa aplicable, que por defecto deberá cumplir con la Definición de Estándares Abiertos del IMI.
+
+{counter:guidelines_sover}. Identificación de formatos y estándares::
+
+El IMI mantendrá listas públicas de formatos y estándares técnicos en uso clasificados como obligatorios, prioritarios, recomendados.
+
+{counter:guidelines_sover}. Selección de estándares::
+
+La elección de estándares seguirá un proceso abierto y transparente de elección en base a las necesidades de los usuarios, la flexibilidad, la promoción de la libre competencia y libre colaboración y las implicaciones para la futura interoperabilidad. Este proceso deberá ser aprobado formalmente. Las áreas que tengan su propio marco legal seguirán estándares específicos.(p. ej. Geodata).
+
+=== Software libre directrices generales
+
+{counter:guidelines_sover}. Adquisición y uso prioritario de software libre::
+
+La adquisición y contratación pública de herramientas y sistemas exigirá el uso de software libre, para toda la arquitectura técnica de las aplicaciones y los servicios entregados o actualizados, evitando dependencias de sistemas no libres y permitiendo el uso de estos sistemas no libres sólo en circunstancias excepcionales que se revisarán caso por caso.
+
+{counter:guidelines_sover}. Liberación de software y documentación::
+
+Los proyectos de desarrollo tanto internos como externos se basarán por defecto en tecnologías abiertas que permitan que el producto final pueda declararse de fuentes abiertas conforme a la política del Ayuntamiento y la normativa aplicable, y su documentación, diseño, y otros elementos (sonidos, tipografías, etc.), puesta a disposición bajo licencias de contenidos abiertos.
+
+{counter:guidelines_sover}. Favorecimiento de la reutilización::
+
+En la adquisición de software incentivará la reutilización de soluciones ya existentes.
+En los desarrollos en los que participe el Ayuntamiento intentará, más allá de la publicación bajo licencias libres, ofrecer facilidades técnicas y organizativas para la reutilización por parte de terceros.
+En los casos en que no sea posible liberar el software propiedad del Ayuntamiento y de sus entidades asociadas bajo licencias libres (por razones técnicas o legales), igualmente se pondrá este a disposición de otras administraciones sin contraprestación y sin necesidad de convenio, conforme la normativa aplicable.
+
+{counter:guidelines_sover}. Mutualización de proyectos y costes::
+
+Cuando sea conveniente, se estudiará la posibilidad de colaborar con otras administraciones públicas y entidades en el desarrollo de proyectos tecnológicos de su interés, compartiendo los costes y favoreciendo la interoperabilidad.
+
+=== Proyectos
+
+{counter:guidelines_sover}. Preparación y anteproyectos::
+
+En la fase de preparación de contratos se debe demostrar que se ha hecho una búsqueda exhaustivo de posibles soluciones suficientes ya existentes y reutilizables, tanto a nivel nacional como en repositorios públicos internacionales.
+
+{counter:guidelines_sover}. Especificaciones técnicas y funcionales::
+
+Los proyectos propuestos deben analizar si la forma en que se presenta el problema, tanto internamente como en el eventual pliego, impide proponer soluciones con tecnología abiertas.
+La arquitectura, los requerimientos de interoperabilidad y el derecho y la capacidad de poder modificar y reutilizar el software de los sistemas y servicios serán considerados características y prescripciones técnicas.
+
+{counter:guidelines_sover}. Cálculo de costes::
+
+Toda decisión sobre la adquisición de tecnologías tomará en cuenta el coste total del sistema sobre la vida útil del servicio a largo plazo, incluyendo los costes de salida (es decir los costes para remplazar la tecnología a futuro).
+
+{counter:guidelines_sover}. Contratación de servicios::
+
+Los contratos para proyectos nuevos o extensiones de proyectos existentes utilizarán cláusulas modelo basadas en estos principios, incluso para anteproyectos en los que se hace una preselección de tecnologías así como en acuerdos marcos de contratación o contratación por lotes.
+Estas cláusulas exigirán el uso de soluciones basadas en tecnologías libres, salvo casos excepcionales.
+
+{counter:guidelines_sover}. Mejores prácticas de desarrollo::
+
+El desarrollo de infraestructuras y servicios digitales seguirá las mejores prácticas en metodologías de desarrollo de software libre, utilizando por defecto los métodos Agile aplicados en el IMI.
+
+{counter:guidelines_sover}. Mantenimiento de código y documentación::
+
+Los proveedores de servicios de desarrollo de los sistemas informáticos deberán, durante la vigencia de su contrato, colaborar con el IMI en mantener el código disponible en sistemas adecuados de control de versiones.
+Asimismo, todo sistema y servicio deberá ser correctamente documentado tanto para administradores como para usuarios internos y ciudadanos.
+Igualmente documentada y accesible debe estar la documentación, scripts e instrucciones necesarias para la instalación, despliegue y configuración del servicio en entornos libres y abiertos, así como la documentación requerida para el desarrollo.
+
+=== Apertura, comunidad y contribuciones
+
+{counter:guidelines_sover}. Colaboración con comunidades libres y otras entidades::
+
+Los proyectos propuestos estudiarán las posibilidades de colaboración con las comunidades tecnológicas y de software libre, en especial con comunidades locales.
+También se favorecerá la colaboración con otras entidades e instituciones interesadas, para promover la innovación social y los productos y competencias tecnológicos locales
+
+{counter:guidelines_sover}. Sostenibilidad y gobernanza::
+
+Los proyectos que generen sistemas y herramientas completas libres a través de un servicio de desarrollo promovido y financiado por el Ayuntamiento deberán incluir un modelo de sostenibilidad y de gobernanza del proyecto que incluya entre otros aspectos, una aproximación a la definición de la comunidad, las herramientas de apoyo de la misma, la actividades de comunicación y marketing, los procesos para la inclusión de contribuciones externas, la gestión de la propiedad intelectual y la sostenibilidad más allá del propio proyecto para el Ayuntamiento.
+
+{counter:guidelines_sover}. Contribuciones externas::
+
+Se promoverá la diversidad de contribuciones para los proyectos liderados y/o liberados por el Ayuntamiento y se establecerán reglas concretas para la gestión de los derechos sobre dichas contribuciones para garantizar el respecto de los derechos de terceros y la normativa aplicable.
+
+{counter:guidelines_sover}. Retorno a la comunidad (upstreaming) y compatibilidad a futuro (forward compatibility)::
+
+Los desarrollos que mejoren o transformen un producto de software libre existente, realizados tanto por personal del Ayuntamiento como por proveedores, en la máxima medida posible contribuirán estas mejoras y cualesquiera correcciones “_upstream_”, al proyecto original.
+Asimismo garantizarán, en la medida de lo posible, la compatibilidad a futuro, de tal manera que el software adaptado para el Ajuntament de Barcelona minimice al máximo los posibles problemas de actualización y mantenimiento.
+
+=== Aspectos jurídicos
+
+{counter:guidelines_sover}. Propiedad intelectual en el software municipal::
+
+Los proyectos del Ayuntamiento establecerán un marco legal para determinar de forma clara la gestión de los derechos de propiedad intelectual de los desarrollos realizados.
+Dependiendo del caso, esto se regirá por distintos tipos de acuerdos, desde la cesión habitual de derechos al Ayuntamiento o al IMI, hasta dejar esta propiedad en manos del proveedor, o ceder los derechos a entidades que gestionen o alberguen los desarrollos de software libre implicados en el proyecto.
+
+{counter:guidelines_sover}. Gestión legal de los proyectos de desarrollo de software::
+
+Los proyectos deberán gestionar expresamente los aspectos legales vinculados con la propiedad intelectual y las licencias de software (y en particular las licencias de los componentes usados en el desarrollo), y para ello utilizar herramientas estándares o de uso generalizado en el sector, para garantizar la trazabilidad y la integridad del código.
+
+{counter:guidelines_sover}. Licencia::
+
+El software generado en el marco de los proyectos de servicios digitales del Ayuntamiento, incluyendo el software resultado de contratos de servicios, será puesto a disposición pública bajo una licencia libre que cumpla la normativa aplicable.
+El Ayuntamiento establecerá criterios y requisitos para la decisión sobre licencias.
+
+{counter:guidelines_sover}. Marcas::
+
+En caso de registrar una marca comercial para designar un proyecto de software liberado por el Ayuntamiento, éste establecerá una política pública de uso de la misma que permita a los miembros de la comunidad de usuarios y desarrolladores utilizarla en el marco de las actividades de esta comunidad.
+
+== Gestión responsable y ética de los datos
+
+Para cumplir con el objetivo de la gestión responsable y ética de datos dentro del marco de los estándares de servicios digitales, las directrices de este Código de prácticas tecnológicas son las siguientes:
+
+
+=== Alcance
+
+{counter:guidelines_ethic}. Alcance::
+
+Los datos a los que hace referencia este código de prácticas es el conjunto de todos los datos municipales.
+Entre los datos municipales podemos distinguir a efectos conceptuales tres grandes grupos:
++
+a) *Datos de gestión*: son aquellos conjuntos de datos que las diferentes gerencias y entidades municipales usan para el desarrollo de su misión.
++
+b) *Datos abiertos*: Son los conjuntos de datos que la corporación municipal pone a disposición del público en formato crudo.
++
+c) *Estadística oficial*: Es el conjunto de estadísticas obtenidas por el Ayuntamiento sobre varios conjuntos de datos y que tienen la consideración de Estadística Oficial.
+Sólo el primer conjunto (de gestión) puede incluir *datos de carácter personal*.
+
+{counter:guidelines_ethic}. Repositorios::
+
+El Ayuntamiento dispone de varios repositorios para cada tipo de conjunto de datos.
+Su definición y gestión estará vinculada al conjunto de requerimientos tecnológicos que este código describe, así como la normativa de protección de datos.
+De manera transversal embargo, existe un repositorio global de datos en el City OS que se constituye como repositorio analítico único de datos municipales.
+El City OS podrá incluir una imagen analítica de cualquier conjunto de datos de gestión.
+
+=== Gestión de los datos
+
+{counter:guidelines_ethic}. Gestión basada en la evidencia::
+
+Hay que dar un paso firme y decidido en la gestión de los servicios municipales basada en las evidencias.
+El conjunto de datos de los que actualmente dispone el Ayuntamiento (_data lake_) debe retornar un valor mucho mayor a partir de, especialmente, una gestión transversal y más eficiente del conjunto de datos, que permita la aplicación de análisis más complejos desarrollados por la disciplina de la ciencia de los datos.
+
+{counter:guidelines_ethic}. Planificación::
+
+En apoyo de las necesidades de gestión y los criterios y los requisitos misión del Ayuntamiento de Barcelona, cada unidad deberá desarrollar y mantener su propio Plan de _Management_ de los Datos (PMD) que describirá los objetivos de los recursos propios de tecnología de la información. Los objetivos deben ser específicos, medibles y verificables de manera que se pueda supervisar su progreso.
+
+{counter:guidelines_ethic}. Inventario y registro de actividad::
+
+Las unidades deberán mantener un inventario de los sistemas información, sus contenedores y las herramientas de diseminación con un nivel de detalle que se determine para supervisarlos y gestionarlos.
+Por otra parte cada unidad deberá mantener informado un registro que recoja todas las acciones sobre las bases de datos tanto de gestión como analíticas.
+La oficina del Director Municipal de Datos DMD-CDO determinará la metainformación de estas sistemas.
+
+{counter:guidelines_ethic}. Gestión de los datos::
+
+Las unidades deberán facilitar de forma continuada la adopción de las nuevas tecnologías y evaluar todo el ciclo de vida de cada sistema de información.
+Las entidades deberán incorporar los siguientes pasos cuando sea apropiado en la planificación, definición del presupuesto y gestión:
+* Los datos municipales estarán éticamente gestionadas durante su ciclo de vida (creación, colección, almacenamiento, uso-análisis, difusión, archivo y destrucción).
+* La información municipal se gestiona haciendo posible su acceso, consulta y uso al público a partir de disposiciones legales vigentes.
+* Se registrará la actividad realizada sobre los datos en un conjunto amplio de metainformación.
+* Se identificarán los riesgos contra la privacidad o de seguridad durante todo el ciclo vida de los datos, desarrollando su análisis de riesgos y soluciones de seguridad.
+* Se gestionará mediante una asignación clara de roles y responsabilidades para promover un diseño y operación eficientes de todos los procesos de gestión.
+
+{counter:guidelines_ethic}. Arquitectura::
+
+Es necesario que las unidades desarrollen un documento de arquitectura (DA) que describa la arquitectura que se dispone, la arquitectura objetivo y el plan para alcanzar esta última.
+El DA de cada unidad debe alinearse al PMD.
+El DA es necesario que identifique los diferentes roles que pueden tener acceso a los sistemas y también qué perfiles pueden tener acceso a qué información y bajo qué circunstancias.
+
+{counter:guidelines_ethic}. Apertura e interoperabilidad de los datos y formatos::
+
+Las unidades promoverán la apertura de los datos municipales (_Open Data_) y la interoperabilidad basada en formatos abiertos, sujeta a los requerimientos técnicos y legales existentes, para incrementar el acceso público a la información municipal y la eficiencia de las operaciones, reducir los costes, y mejorar los servicios para los ciudadanos.
+
+{counter:guidelines_ethic}. Gestión de riesgos::
+
+Las unidades deben aplicar y documentar las medidas de seguridad de la información y los datos designadas, de la gestión de registros, transparencia, evaluación de impacto y las cadenas de suministros y hacerlo durante todo el ciclo de datos de forma que los riesgos estén evaluados y gestionados.
+
+{counter:guidelines_ethic}. Plan de resiliencia::
+
+Cada unidad deberá desarrollar un Plan de Resiliencia.
+El Plan de Resiliencia es esencial para que los servicios puedan continuar ejerciendo serves tareas en situaciones de disrupción.
+
+{counter:guidelines_ethic}. Privacidad y protección de los datos de carácter personal::
+
+Las unidades municipales sólo podrán crear, coleccionar, usar, almacenar, o difundir datos de carácter personal si tienen la autorización pertinente.
+Las unidades deben establecer y mantener un programa de protección de los datos que asegure el cumplimiento de la normativa aplicable (en especial, el Reglamento (UE) núm. 2016/679 del Parlamento Europeo y del Consejo, de 27.4.2016 ) y otros requerimientos de privacidad, y que evalúe y gestione los riesgos sobre la privacidad.
+
+{counter:guidelines_ethic}. Privacidad por diseño _pets_::
+
+Se deben tomar las medidas necesarias para incorporar estrategias de privacidad para el diseño y/o tecnologías de mejora de la privacidad (_PET's_), a partir de las que la salvaguarda de la privacidad de los interesados se tenga en cuenta en todos los procesos de diseño, desarrollo y gestión de los sistemas de información del Ayuntamiento.
+Hay que usar siempre que sea aplicable algoritmos de encriptación, anonimización o pseudonominització de los datos.
+
+{counter:guidelines_ethic}. Avaluaciones de impacto::
+
+Las unidades harán evaluaciones de impacto de protección de datos orientadas a asegurar preventivamente que, cuando las operaciones de tratamiento pueden conllevar riesgos especialmente relevantes, se tomen las medidas necesarias para reducir, en la medida de lo posible, el riesgo de dañar o perjudicar a las personas , o afectar negativamente los derechos y libertades, impidiendo o limitando el ejercicio o el contenido.
+
+{counter:guidelines_ethic}. Seguridad de los datos::
+
+La seguridad física de los datos estará determinada por los estándares definidos por el IMI.
+En todo caso, cualquier tercero encargado del tratamiento de datos deberá ofrecer garantías suficientes respecto de la implantación y el mantenimiento de las medidas de seguridad requeridas, y las demás directivas que define este código y la futura Estrategia de Datos en el Ayuntamiento de Barcelona.
+
+=== Roles y gobernanza
+
+{counter:guidelines_ethic}. Roles y responsabilidades::
+
+La organización municipal adaptará los roles y competencias de los responsables y unidades para observar los requerimientos de este código.
+Se nombrará un Director Municipal de Datos, responsable de la Oficina de Análisis de Datos municipales, y cada unidad tendrá un delegado responsable de datos que ejercerá ese rol para cada uno de los órganos responsables de datos.
+En cumplimiento del Reglamento 2106/679 de la UE, el Ayuntamiento designará un Delegado de Protección de Datos (DPD) corporativo con las funciones que este reglamento le asigna.
+
+{counter:guidelines_ethic}. Gestión corporativa - gobernanza::
+
+Las gerencias y los entes municipales deberán cumplir los reglamentos e instrucciones respecto a la gestión de datos, de la información y de los documentos municipales que se deriven desde los órganos ejecutivos, que se desarrollarán a partir de la Estrategia de Gestión Responsable de Datos liderada por la Comisionada de Tecnología e Innovación Digital
+
+{counter:guidelines_ethic}. Directiva de datos::
+
+La Estrategia de Datos Municipal que desarrollará a partir de este código y la correspondiente Medida de Gobierno sobre la Estrategia de Datos en el Ayuntamiento de Barcelona concretará con detalle técnico el desarrollo de la gestión de datos municipales.

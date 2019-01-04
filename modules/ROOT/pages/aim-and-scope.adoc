@@ -24,11 +24,10 @@ Asimismo concierne el diseño y construcción de todos los servicios digitales d
 Se dirige a todos los líderes y responsables de las unidades del Grupo Municipal, los administradores de programas y el personal implicado en la implementación de esta Estrategia.
 Los responsables de cada Gerencia tienen el cometido último de asegurar que las directrices de la Estrategia y de este Código se implementen.
 
-//Falta por traducir al castellano
-//These principles and guidelines will be put into operation through performance of the City Council’s agile digital transformation projects, which are largely managed by the IMI.
-//*****These projects will enable resources to be dedicated, infrastructures to be created and skills to be acquired for carrying out these transformations.
-//So changes involved in the application of these practices within the City Council will be managed in an iterative way through specific projects.
-//Some of the projects and their extensions (e.g. Decidim. Barcelona, Sentilo, BIMA) already comply in good measure with the guidelines outlined here, while others will gradually do so in a more progressive manner.*****
+La puesta en marcha de estos principios y directrices se hará a través de la realización de los proyectos de transformación digital ágil del Ayuntamiento, gestionados principalmente por el IMI.
+Estos proyectos permitirán la dedicación de recursos, la creación de infraestructura y la adquisición de competencias para realizar estas transformaciones.
+De esta manera, la gestión del cambio que supone la aplicación de estas prácticas dentro del Ayuntamiento se realizará de manera iterativa a través de proyectos concretos.
+Algunos proyectos y sus ampliaciones (por ejemplo, Decidimos Barcelona, Sentilo, BIMA) ya cumplen en buena medida las directrices indicadas aquí, otros lo irán consiguiendo con un proceso de aplicación más progresivo.
 
 == Estructura
 
@@ -42,7 +41,6 @@ Este documento se estructura en un conjunto de principios generales, apoyados po
 
 Este documento es complementario y no sustituye a ninguna política de la organización ni regulación municipal o de otros ámbitos
 
-// Falta por traducir al castellano
-//This Technology Code of Practice is accompanied by two supporting documents to promote the Agile Digital Transformation Plan: The Agile Methodologies Guide and the Technological Sovereignty Guide.
-//In addition, the Plan is being implemented through the City Council’s Procurement Guides, particularly the Technology Procurement Guide and the Innovative Procurement Guide.
-//As for responsible and ethical data management, a key element of the Agile Digital Transformation Plan (particularly the Open Data strategy and the Data Commons, Data Driven projects and interoperability based on free data formats), the corresponding guidelines and their implementation will be developed in a new _Government Measure on the Strategy for Responsible and Ethical Data Management at Barcelona City Council_, which will specify the required technical details, processes and responsibilities.
+Este código de prácticas tecnológicas se acompaña de dos documentos de apoyo para favorecer el desarrollo del Plan de Transformación Digital Ágil: la Guía sobre Metodologías Ágiles y la Guía sobre Soberanía Tecnológica.
+Sin embargo, el Plan se implementa a través de las Guías de Contratación del Ayuntamiento, en especial la Guía de Compra Pública de TIC y la Guía de Compra Innovadora.
+En relación a la gestión responsable y ética de datos, elemento esencial del Plan de Transformación Digital Ágil (en especial la estrategia de Datos Abiertos y para el bien común, los proyectos _Data Driven_ y la interoperabilidad basada en formatos de datos abiertos), las correspondientes directivas y su puesta en práctica se desarrollarán en una nueva Medida de Gobierno sobre la _Estrategia de Gestión Responsable y Ética de Datos en el Ayuntamiento de Barcelona_, que se concretará con los necesarios detalles técnicos, procesos y responsabilidades.

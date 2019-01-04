@@ -1,0 +1,100 @@
+= Principios de diseño y desarrollo de Servicios Digitales
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+Los siguientes principios y directrices generales implementan la Estrategia de transformación digital ágil del Ayuntamiento de Barcelona y los Estándares de Servicios Digitales, en cuanto al diseño y desarrollo de servicios digitales.
+
+{counter:principle}. SEGUIR LOS ESTÁNDARES DE SERVICIOS DIGITALES Y GESTIÓN RESPONSABLE DE DATOS::
+
+Todo nuevo servicio digital deberá seguir el Estándar de Servicios Digitales del Ayuntamiento y la Estrategia de Gestión Responsable de Datos.
+
+{counter:principle}. DIRIGIDO A LOS CIUDADANOS::
+
+Los servicios digitales del Ayuntamiento de Barcelona se enfocan a cubrir las necesidades del usuario.
+Todos los sistemas y servicios están en último término al servicio del ciudadano, tienen que aportar utilidad y valor añadido a la experiencia del ciudadano.
+
+Los ciudadanos y el bien público estarán en el centro de los planes tecnológicos y plataformas digitales de Barcelona, permitiendo el control ciudadano de los datos, abordando la brecha digital y evitando prácticas discriminatorias o no éticas respecto de los datos.
+
+{counter:principle}. CLARIDAD EN OBJETIVOS Y RECURSOS::
+
+Los proyectos tienen que demostrar claridad en los objetivos que desean lograr, el impacto de éstos y como se integran en las líneas estratégicas del Ayuntamiento.
+No es suficiente que un proyecto tenga coherencia interna y esté bien desarrollado, se debe explicar cómo el servicio digital va a resolver necesidades concretas del Ayuntamiento y de los ciudadanos.
++
+Los proyectos deben especificar los recursos técnicos y organizativos necesarios para su ejecución y cómo van a ser cubiertos.
+No es necesario definir todos los detalles de los proyectos en sus fases iniciales, pero tampoco deberán aprobarse grandes proyectos sin un análisis suficiente de estos aspectos.
+
+{counter:principle}. ANÁLISIS DE OPCIONES::
+
+Todo servicio nuevo debe comenzar con un análisis estratégico de opciones para determinar si debe ser construido dentro de la organización, por proveedores externos o mediante un equipo mixto.
+Asimismo, se deberá determinar el método de desarrollo a utilizar (por defecto, Agile) y la posibilidad de crear, utilizar y/o reutilizar software libre.
+Como parte de este proceso, es necesario ver las implicaciones de la elección de tecnologías y metodologías en cuanto a la gestión y formación de personal interno y externo del Ayuntamiento.
+
+{counter:principle}. PRINCIPIO DE SIMPLICIDAD::
+
+Los servicios desarrollados se diseñarán aplicando los principios de claridad y simplicidad en su uso y arquitectura.
+Se intentará unificar las distintas versiones de aplicaciones dentro de la organización y evitar la proliferación de versiones diferentes.
+Prevalecerá la construcción de soluciones transversales a toda la organización frente a soluciones verticales (sectoriales).
++
+En lo posible, se intentarán minimizar las modificaciones del software “estándar” (tanto propietario como software libre), para facilitar su implantación y uso, mantener las ventajas de coste y rapidez que pueda tener una solución estándar frente al desarrollo a medida y evitar problemas a la hora de su actualización o sustitución.
+Cualquier modificación o extensión seguirá un estricto control técnico y de sus implicaciones presupuestarias más allá de las del propio proyecto (en el tiempo y en su alcance organizativo).
+
+{counter:principle}. MÉTODOLOGÍAS DE DESARROLLO ÁGIL E INNOVACIÓN CONTINUA::
+
+Las metodologías de desarrollo ágiles, centradas en el usuario, se utilizarán por defecto en todos los proyectos tecnológicos del IMI poniendo el foco en la innovación continua en línea con los principios del _Manifiesto Agile_.
+Los proyectos se desarrollarán en un proceso iterativo e incremental, probando hipótesis y creando prototipos, usando analítica y experimentación.
+Se utilizará la metodología _Agile_ del Ayuntamiento, Scrum@IMI.
+
+{counter:principle}. REUTILIZAR Y PROVEER COMPONENTES Y SERVICIOS COMUNES::
+
+Los proyectos intentaran en la mayor medida posible reutilizar componentes y servicios digitales comunes ya existentes y, en caso de que estos no existan o puedan ser mejorados, contribuir a su creación o desarrollo, antes de considerar la creación de alternativas paralelas.
+Esto permite abaratar costes y generar consistencia en la experiencia del usuario así como en el mantenimiento de los servicios.
+
+{counter:principle}. SERVICIOS INTEGRADOS E INTEGRALES::
+
+Los nuevos servicios digitales deben demostrar como integrarán verticalmente los componentes y tecnologías necesarios para su funcionamiento.
+El diseño del servicio tiene que contemplar desde la experiencia del usuario hasta las implicaciones para la arquitectura de sistemas y su mantenimiento.
+Esto requerirá la colaboración entre equipos de distintos departamentos y especialidades.
+
+{counter:principle}. MANTENER GUÍAS Y MANUALES::
+
+Los nuevos servicios digitales deben mantener una documentación de calidad, incluyendo guías y manuales puestos a disposición pública para que puedan ser accesibles por todos los interesados (stakeholders), tanto internos como externos (proveedores) para que todos ellos puedan contribuir en el proceso de documentación.
+La documentación se mantendrá en una plataforma centralizada con formatos estándar, control de versiones y autoría.
+
+{counter:principle}. ARQUITECTURA DE LOS NUEVOS SERVICIOS::
+
+Los nuevos servicios digitales del Ayuntamiento evitaran en lo posible las arquitecturas tradicionales cliente-servidor, prefiriéndose las soluciones web respetando los estándares de W3C, que ofrecen más flexibilidad, interoperabilidad e independencia del _hardware_ y sistemas operativos del cliente donde se ejecuten.
+Todo nuevo proyecto debe contribuir a la eliminación de servicios anticuados para lograr reducir el número de servicios y tecnologías en uso.
+
+{counter:principle}. ACCESIBILIDAD Y BILINGÜISMO::
+
+Los servicios digitales serán concebidos desde su fase inicial de forma bilingüe en catalán y castellano y serán accesibles a todos los usuarios, tanto internos como ciudadanos, en conformidad con los manuales de estilo lingüístico y de accesibilidad vigentes en cada momento para los servicios del Ayuntamiento.
+
+{counter:principle}. SEGURIDAD::
+
+El diseño de los servicios y proyectos deberá tener en cuenta la seguridad desde su conceptualización inicial. Los servicios deberán seguir la Política de Seguridad Corporativa y estándares basados en la norma ISO27002 y el Esquema Nacional de Seguridad. Los servicios seguirán la clasificación corporativa de información (ITIL).
+
+{counter:principle}. CONTRATACIÓN::
+
+La adquisición y contratación de servicios tecnológicos debe aplicar las Guías de Contratación del Ayuntamiento de Barcelona _(actualmente, la Guía de contratación pública social y la Guía de contratación pública ambiental del Decret d’Alcaldia de Contractació Pública Sostenible (S1/D/2017-1271 de 24 d’abril), y en futuro muy próximo, las Guías de Contractació Tecnológica y de Compra Innovadora).
+La contratación de nuevos servicios se realizará de forma prioritaria a través de acuerdos marco de contratación [(procurement frameworks)]_.
++
+Para apoyar el principio de soberanía tecnológica de la Ciudad, se deberá evitar dependencias de un solo proveedor, lo cual también es un factor clave para aumentar la capacidad de innovación en los servicios públicos.
+La integración de sistemas debe ser realizada por un proveedor distinto a los fabricantes de los mismos. En la medida de lo posible, la contratación de servicios digitales debe aumentar la diversidad de proveedores y limitar el volumen presupuestario de los contratos.
++
+Respetando el marco legal y las normativas de competencia se fomentará la contratación de PYMES de la Ciudad y su área de influencia, pero si es necesario también se facilitará la contratación de empresas especializadas a nivel nacional y de otros países de la UE.
+
+{counter:principle}. SOBERANÍA TECNOLÓGICA Y SOFTWARE LIBRE::
+
+Los proyectos deben promover la soberanía tecnológica, basada en los principios que guían el Instituto Municipal de Informática de Barcelona en materia de tecnología e innovación: interoperabilidad, agilidad, reutilización, ética y apertura de conocimientos y tecnologías.
+El IMI deberá incorporar el software libre y las tecnologías y estándares abiertos en sus servicios y procesos tecnológicos, de manera integrada en toda la arquitectura de los sistemas.
+
+{counter:principle}. SOBERANÍA CIUDADANA SOBRE LOS DATOS::
+
+La ciudadanía y el bien común deben estar en el corazón de los planes y las plataformas tecnológicas del municipio de Barcelona que recogen, crean y/o gestionan datos y otra información. Hay que hacer posible el control ciudadano de los datos, minimizar la brecha digital y evitar prácticas discriminatorias o no éticas respecto de los datos.
+
+{counter:principle}. ACCESO, REUTILIZACIÓN DE DATOS E INNOVACIÓN::
+
+Las instituciones municipales deben ser abiertas, transparentes y responsables ante la ciudadanía.
+Hay que asegurar que la información y documentos municipales sean accesibles, usables y analizables para favorecer el emprendimiento, la innovación social y digital, los puestos de trabajo y la excelencia en la investigación científica, mejorar la vida de los ciudadanos de Barcelona y contribuir de forma significativa a la estabilidad y la prosperidad de la ciudad.
