@@ -1,5 +1,14 @@
-* xref:aim-and-scope.adoc[Aim and scope]
-* xref:principles.adoc[Principles for designing and developing digital services]
-* xref:guidelines.adoc[Guidelines for designing and implementing digital services]
-* xref:references.adoc[References]
-// * xref:glossary:ROOT:glossary.adoc[Glossary]
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+.$$MAIN
+* xref:aim-and-scope.adoc[Objeto y alcance]
+* xref:principles.adoc[Principios de diseño y desarrollo de Servicios Digitales]
+* xref:guidelines.adoc[Directrices para el diseño y el desarrollo de servicios digitales]
+* xref:references.adoc[Referencias]
+
+.$$BOTTOM
+* xref:{lang}/glossary:ROOT:glossary.adoc[Glosario de las guías]
+* link:{attachmentsdir}/barcelona_tech_practices_{revnumber}.{lang}.pdf[Descargar PDF]
